@@ -4,7 +4,7 @@ public class MaximalCommonalityGoldmann {
 
 	public static void main(String[] args) {
 		
-		String str = "abcdedeara";
+		String str = "aabaa";
 		int[] alpha = new int[26];
 		for(int i=0;i<str.length();i++)
 			alpha[str.charAt(i)-'a']++;
