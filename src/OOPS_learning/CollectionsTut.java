@@ -133,6 +133,8 @@ public class CollectionsTut {
 		Integer.toString(10);
 		//integer value of string
 		Integer.parseInt("1234");
+		//converts str to char array
+		str.toCharArray();
 		
 	}
 	public static void stringBuilder() {
