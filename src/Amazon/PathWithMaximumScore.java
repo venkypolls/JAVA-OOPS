@@ -4,7 +4,7 @@ public class PathWithMaximumScore {
 
 	public static void main(String[] args) {
 		
-		int[][] arr = new int[][] {{5, 1},{4,5}};
+		int[][] arr = new int[][] {{5,2,3,8},{4,5,7,5}};
 		if(arr.length == 0 || arr[0].length == 0)
 			System.out.println(0);
 		int min = arr[0][0]; 

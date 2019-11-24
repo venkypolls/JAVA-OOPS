@@ -1,5 +1,8 @@
 package OOPS_learning;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.*;
 
 
@@ -8,7 +11,7 @@ public class CollectionsTut {
 	public static void main(String[] args) {
 		// Collections, Map, Arrays, Collections
 		//another file for String and StringBuffer
-		
+		string();
 
 	}
 	public static void collection_interface() {
@@ -124,7 +127,7 @@ public class CollectionsTut {
 		//length of string
 		str.length();
 		//returns string value of 5
-		String.valueOf(5);
+		System.out.println(String.valueOf(-5));
 		//splits to an string array
 		str.split(" ");
 		//trims off spaces and extra tabs
@@ -162,6 +165,21 @@ public class CollectionsTut {
 		
 		
 		
+	}
+	
+	public static void readFromFile(String file1) {
+		try {
+			BufferedReader bf = new BufferedReader(new FileReader(file1));
+			String str;
+			
+			while((str=bf.readLine())!=null) {
+				System.out.println(str);
+			}
+			bf.close();
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
 	}
 }
 
