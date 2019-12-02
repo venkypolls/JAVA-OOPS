@@ -1,0 +1,13 @@
+Airlines name,from,to,departure,arrival,flight_no,aircraft
+Delta,PHX,SEA,12:20pm,2:29pm,1190,Boeing 737-800
+Delta,PHX,SEA,7:49pm,10:07pm,1562,Boeing 737-800
+Delta,PHX,SEA,8:00am,10:17am,747,Boeing 737-800
+Delta,PHX,SEA,3:45pm,5:59pm,1262,Boeing 737-800
+Delta,PHX,SEA,12:20pm,2:29pm,1190,Boeing 737-800
+Delta,PHX,SEA,7:49pm,10:07pm,1562,Boeing 737-800
+Delta,PHX,SEA,8:00am,10:17am,747,Boeing 737-800
+American Airlines,PHX,SEA,6:33pm,8:49pm,578,Airbus A321
+American Airlines,PHX,SEA,3:07pm,5:22pm,2197,Airbus A321
+Delta,PHX,SEA,3:45pm,5:59pm,1262,Boeing 737-800
+
+
